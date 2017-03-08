@@ -130,7 +130,7 @@ class Curl
     public function get($url, $raw = true)
     {
         $this->_baseUrl = $url;
-        return $this->_httpRequest('GET', $url, $raw);
+        return $this->_httpRequest('GET', $raw);
     }
 
 
